@@ -1,6 +1,8 @@
-# Authentication API
+# Authentication API (Keycloak Implementation)
 
-This document outlines the API endpoints for authentication in the Nightcrawler Dashboard.
+**Note: This document is for reference only and not a required handoff document. The actual implementation will use Keycloak for authentication.**
+
+This document outlines the authentication approach for the Nightcrawler Dashboard.
 
 ## Base URL
 
@@ -154,10 +156,15 @@ All endpoints may return the following error responses:
 }
 ```
 
-## Authentication Flow
+## Authentication Flow with Keycloak
 
-1. Client submits username and password to the `/api/auth/login` endpoint
-2. Server validates credentials and returns a JWT token
-3. Client includes the token in the Authorization header for subsequent requests
-4. If the token expires, client can use the `/api/auth/refresh` endpoint to obtain a new token
-5. Client can log out by calling the `/api/auth/logout` endpoint
+The Nightcrawler Dashboard will implement authentication using Keycloak, which provides:
+
+1. Single Sign-On (SSO) capabilities
+2. Identity and Access Management
+3. Social login integration
+4. Multi-factor authentication
+5. User federation
+6. Standard protocols support (OAuth 2.0, OpenID Connect, SAML)
+
+The implementation details and specific endpoints will be determined during the Keycloak integration phase. The example endpoints in this document are for reference only and will be replaced by the Keycloak authentication flow.
