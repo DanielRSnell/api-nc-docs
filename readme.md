@@ -9,6 +9,7 @@ Nightcrawler Dashboard is a comprehensive management interface designed to provi
 ## Tech Stack
 
 ### Frontend
+
 - **Framework**: [Astro](https://astro.build/) with [React](https://reactjs.org/)
 - **UI Components**: [ShadCN](https://ui.shadcn.com/) - Beautifully designed components built with Radix UI and Tailwind CSS
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
@@ -17,6 +18,7 @@ Nightcrawler Dashboard is a comprehensive management interface designed to provi
 - **Authentication**: [Keycloak](https://www.keycloak.org/) - Open Source Identity and Access Management
 
 ### Development Tools
+
 - **Package Manager**: [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
 
 ## Features
@@ -99,11 +101,3 @@ nightcrawler-dashboard/
 ├── tailwind.config.js   # Tailwind CSS configuration
 └── README.md            # Project documentation
 ```
-
-## Contributing
-
-Please read the contributing guidelines before submitting pull requests.
-
-## License
-
-[Specify your license here]
